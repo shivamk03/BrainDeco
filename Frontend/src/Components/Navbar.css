@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 96.5vw;
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-content>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-content>ul>li{
+    margin: 0px 20px 0px 20px;
+    list-style: none;
+}
+.nav-content>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-content>ul>li>a:hover{
+    color: skyblue;
+}
+#sign-out{
+    color: skyblue;
+}
